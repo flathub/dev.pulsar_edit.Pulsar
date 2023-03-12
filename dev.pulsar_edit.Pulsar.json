@@ -2,7 +2,7 @@
     "app-id": "dev.pulsar_edit.Pulsar",
     "base": "org.electronjs.Electron2.BaseApp",
     "base-version": "22.08",
-    "runtime": "org.freedesktop.Sdk",
+    "runtime": "org.kde.Platform",
     "runtime-version": "22.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "pulsar.sh",
