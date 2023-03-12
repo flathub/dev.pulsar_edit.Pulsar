@@ -3,7 +3,7 @@
     "base": "org.electronjs.Electron2.BaseApp",
     "base-version": "22.08",
     "runtime": "org.kde.Platform",
-    "runtime-version": "22.08",
+    "runtime-version": "6.4",
     "sdk": "org.freedesktop.Sdk",
     "command": "pulsar.sh",
     "rename-desktop-file": "pulsar.desktop",
