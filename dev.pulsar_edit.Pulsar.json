@@ -4,7 +4,7 @@
     "base-version": "22.08",
     "runtime": "org.kde.Platform",
     "runtime-version": "6.4",
-    "sdk": "org.freedesktop.Sdk",
+    "sdk": "org.kde.Sdk",
     "command": "pulsar.sh",
     "rename-desktop-file": "pulsar.desktop",
     "rename-icon": "pulsar",
