@@ -29,15 +29,15 @@
                     "type": "file",
                     "dest-filename": "pulsar.deb",
                     "only-arches": ["x86_64"],
-                    "url": "https://github.com/pulsar-edit/pulsar/releases/download/v1.104.0/Linux.pulsar_1.104.0_amd64.deb",
-                    "sha256": "2f39af772422621e10df36cf0ca30dfdb73dad7b638432501742e74008ef1444"
+                    "url": "https://github.com/pulsar-edit/pulsar/releases/download/v1.105.0/Linux.pulsar_1.105.0_amd64.deb",
+                    "sha256": "f72781f50501a41165e3a10dd677500fb97daac48980aa26194ad6737b2f0bf4"
                 },
                 {
                     "type": "file",
                     "dest-filename": "pulsar.deb",
                     "only-arches": ["aarch64"],
-                    "url": "https://github.com/pulsar-edit/pulsar/releases/download/v1.104.0/ARM.Linux.pulsar_1.104.0_arm64.deb",
-                    "sha256": "7435e9825bddf4d733e7fd2519679b55a4f3b12edf0bc4dd17c62c987715751e"
+                    "url": "https://github.com/pulsar-edit/pulsar/releases/download/v1.105.0/ARM.Linux.pulsar_1.105.0_arm64.deb",
+                    "sha256": "2d613f5a527bd14c5f7e16c397f167dcf3954ccf5c5b1ab637ee44bd9678bbf4"
                 },
                 {
                     "type": "file",
