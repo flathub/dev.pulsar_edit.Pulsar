@@ -16,6 +16,7 @@
         "--share=network",
         "--device=dri",
         "--filesystem=home",
+        "--filesystem=/media",
         "--talk-name=org.freedesktop.Notifications",
         "--talk-name=org.freedesktop.secrets",
         "--talk-name=org.gtk.vfs.*",
