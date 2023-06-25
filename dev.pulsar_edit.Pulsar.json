@@ -40,7 +40,7 @@
                     "dest-filename": "pulsar.deb",
                     "only-arches": ["aarch64"],
                     "url": "https://github.com/pulsar-edit/pulsar/releases/download/v1.106.0/ARM.Linux.pulsar_1.106.0_arm64.deb",
-                    "sha256": ""
+                    "sha256": "79b35577f2d0fcd73e49ad34b6b7fba21ea9ce85ee0d68b2cafa054bc83945b7"
                 },
                 {
                     "type": "file",
