@@ -2,7 +2,7 @@
     "app-id": "dev.pulsar_edit.Pulsar",
     "base": "org.electronjs.Electron2.BaseApp",
     "base-version": "22.08",
-    "runtime": "org.freedesktop.Sdk",
+    "runtime": "org.freedesktop.Platform",
     "runtime-version": "22.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "pulsar.sh",
@@ -18,12 +18,12 @@
         "--filesystem=home",
         "--filesystem=/media",
         "--filesystem=/run/media",
-        "--filesystem=/mnt",
         "--talk-name=org.freedesktop.Notifications",
         "--talk-name=org.freedesktop.secrets",
         "--talk-name=org.gtk.vfs.*",
         "--env=ELECTRON_TRASH=gio",
-        "--env=TMPDIR=/var/tmp"
+        "--env=TMPDIR=/var/tmp",
+        "--persist=.pulsar"
     ],
     "modules": [
         {
