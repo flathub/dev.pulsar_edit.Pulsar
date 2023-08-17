@@ -18,10 +18,11 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.108.0" date="2023-08-16"/>
     <release version="1.107.1" date="2023-07-16"/>
   </releases>
   <kudos>
     <kudo>HiDpiIcon</kudo>
   </kudos>
-  <content_rating type="oars-1.1" />
+  <content_rating type="oars-1.1"/>
 </component>
