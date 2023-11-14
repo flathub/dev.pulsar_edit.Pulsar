@@ -5,7 +5,7 @@
     "runtime": "org.freedesktop.Sdk",
     "runtime-version": "22.08",
     "sdk": "org.freedesktop.Sdk",
-    "command": "pulsar.sh",
+    "command": "pulsar",
     "rename-desktop-file": "pulsar.desktop",
     "rename-icon": "pulsar",
     "separate-locales": false,
@@ -69,10 +69,26 @@
                 },
                 {
                     "type": "script",
-                    "dest-filename": "pulsar.sh",
+                    "dest-filename": "pulsar",
                     "commands": [
                         "export ATOM_HOME=\"$XDG_DATA_HOME\"",
                         "/app/bin/zypak-wrapper.sh /app/Pulsar/pulsar --in-process-gpu --executed-from=\"$(pwd)\" --pid=$$ \"$@\""
+                    ]
+                },
+                {
+                    "type": "script",
+                    "dest-filename": "ppm",
+                    "commands": [
+                        "export ATOM_HOME=\"$XDG_DATA_HOME\"",
+                        "/app/Pulsar/resources/app/ppm/bin/ppm --in-process-gpu --executed-from=\"$(pwd)\" --pid=$$ \"$@\""
+                    ]
+                },
+                {
+                    "type": "script",
+                    "dest-filename": "apm",
+                    "commands": [
+                        "export ATOM_HOME=\"$XDG_DATA_HOME\"",
+                        "/app/Pulsar/resources/app/ppm/bin/apm --in-process-gpu --executed-from=\"$(pwd)\" --pid=$$ \"$@\""
                     ]
                 }
             ],
