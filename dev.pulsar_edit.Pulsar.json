@@ -103,9 +103,9 @@
                 "cp -r usr/* /app",
                 "cp -r opt/* /app",
                 "install pip3 /app/bin",
-                "desktop-file-edit --set-key=Exec --set-value='pulsar.sh %U' /app/share/applications/pulsar.desktop",
-                "install pulsar.sh /app/bin",
-                "chmod +x \"/app/bin/pulsar.sh\"",
+                "desktop-file-edit --set-key=Exec --set-value='pulsar %U' /app/share/applications/pulsar.desktop",
+                "install pulsar /app/bin",
+                "chmod +x \"/app/bin/pulsar\"",
                 "install -Dm644 dev.pulsar_edit.Pulsar.metainfo.xml /app/share/appdata/dev.pulsar_edit.Pulsar.metainfo.xml"
             ]
         }
