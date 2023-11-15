@@ -105,6 +105,8 @@
                 "install pip3 /app/bin",
                 "desktop-file-edit --set-key=Exec --set-value='pulsar %U' /app/share/applications/pulsar.desktop",
                 "install pulsar /app/bin",
+                "install ppm /app/bin",
+                "install apm /app/bin",
                 "chmod +x \"/app/bin/pulsar\"",
                 "install -Dm644 dev.pulsar_edit.Pulsar.metainfo.xml /app/share/appdata/dev.pulsar_edit.Pulsar.metainfo.xml"
             ]
