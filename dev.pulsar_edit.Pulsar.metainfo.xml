@@ -10,7 +10,7 @@
   <url type="bugtracker">https://github.com/pulsar-edit/pulsar/issues/</url>
   <update_contact>admin@pulsar-edit.dev</update_contact>
   <description>
-    <p>Pulsar aims to not only reach feature parity with the original Atom, but to bring Pulsar into the 21st century by updating the underlying architecture, and supporting modern features.</p>
+    <p>Pulsar aims to not only reach feature parity with the original Atom, but to bring Pulsar into the 21st century by updating the underlying architecture and supporting modern features.</p>
   </description>
   <screenshots>
     <screenshot>
@@ -18,6 +18,7 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.112.0" date="2023-12-16"/>
     <release version="1.111.0" date="2023-11-16"/>
     <release version="1.110.0" date="2023-10-16"/>
     <release version="1.109.0" date="2023-09-16"/>
