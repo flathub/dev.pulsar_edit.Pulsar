@@ -93,9 +93,6 @@
                     ]
                 }
             ],
-            "modules": [
-                "shared-modules/libsecret/libsecret.json"
-            ],
             "name": "pulsar",
             "buildsystem": "simple",
             "build-commands": [
