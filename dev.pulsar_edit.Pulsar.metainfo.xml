@@ -4,6 +4,7 @@
   <name>Pulsar</name>
   <developer_name>Pulsar Edit</developer_name>
   <summary>A Community-led Hyper-Hackable Text Editor</summary>
+  <launchable type="desktop-id">dev.pulsar_edit.Pulsar.desktop</launchable>
   <metadata_license>MIT</metadata_license>
   <project_license>MIT</project_license>
   <url type="homepage">https://pulsar-edit.dev</url>
@@ -14,7 +15,8 @@
   </description>
   <screenshots>
     <screenshot>
-      <image type="source">https://raw.githubusercontent.com/pulsar-edit/pulsar/master/resources/readme.png</image>
+        <screenshot type="default">
+          <image type="source">https://raw.githubusercontent.com/pulsar-edit/pulsar/master/resources/readme.png</image>
     </screenshot>
   </screenshots>
   <releases>
