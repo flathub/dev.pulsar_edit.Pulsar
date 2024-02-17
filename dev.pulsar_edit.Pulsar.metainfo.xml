@@ -14,9 +14,8 @@
     <p>Pulsar aims to not only reach feature parity with the original Atom, but to bring Pulsar into the 21st century by updating the underlying architecture, and supporting modern features.</p>
   </description>
   <screenshots>
-    <screenshot>
-        <screenshot type="default">
-          <image type="source">https://raw.githubusercontent.com/pulsar-edit/pulsar/master/resources/readme.png</image>
+    <screenshot type="default">
+      <image type="source">https://raw.githubusercontent.com/pulsar-edit/pulsar/master/resources/readme.png</image>
     </screenshot>
   </screenshots>
   <releases>
