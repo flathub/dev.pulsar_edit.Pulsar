@@ -9,6 +9,8 @@
   <project_license>MIT</project_license>
   <url type="homepage">https://pulsar-edit.dev</url>
   <url type="bugtracker">https://github.com/pulsar-edit/pulsar/issues/</url>
+  <url type="faq">https://pulsar-edit.dev/docs/launch-manual/sections/faq/</url>
+  <url type="vcs-browser">https://github.com/pulsar-edit/pulsar</url>
   <update_contact>admin@pulsar-edit.dev</update_contact>
   <description>
     <p>Pulsar aims to not only reach feature parity with the original Atom, but to bring Pulsar into the 21st century by updating the underlying architecture, and supporting modern features.</p>
@@ -18,6 +20,9 @@
       <image type="source">https://raw.githubusercontent.com/pulsar-edit/pulsar/master/resources/readme.png</image>
     </screenshot>
   </screenshots>
+  <keywords>
+    <keyword>atom</keyword>
+  </keywords>
   <releases>
     <release version="1.114.0" date="2024-02-16"/>
     <release version="1.113.0" date="2024-01-16"/>
