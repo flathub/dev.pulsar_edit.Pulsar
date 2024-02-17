@@ -4,6 +4,7 @@
   <name>Pulsar</name>
   <developer_name>Pulsar Edit</developer_name>
   <summary>A Community-led Hyper-Hackable Text Editor</summary>
+  <launchable type="desktop-id">dev.pulsar_edit.Pulsar.desktop</launchable>
   <metadata_license>MIT</metadata_license>
   <project_license>MIT</project_license>
   <url type="homepage">https://pulsar-edit.dev</url>
@@ -13,11 +14,12 @@
     <p>Pulsar aims to not only reach feature parity with the original Atom, but to bring Pulsar into the 21st century by updating the underlying architecture, and supporting modern features.</p>
   </description>
   <screenshots>
-    <screenshot>
+    <screenshot type="default">
       <image type="source">https://raw.githubusercontent.com/pulsar-edit/pulsar/master/resources/readme.png</image>
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.114.0" date="2024-02-16"/>
     <release version="1.113.0" date="2024-01-16"/>
     <release version="1.112.1" date="2023-12-19"/>
     <release version="1.112.0" date="2023-12-16"/>
