@@ -2,7 +2,9 @@
 <component type="desktop-application">
   <id>dev.pulsar_edit.Pulsar</id>
   <name>Pulsar</name>
-  <developer_name>Pulsar Edit</developer_name>
+  <developer id="dev.pulsar_edit">
+    <name>Pulsar Edit</name>
+  </developer>
   <summary>Community-led hyper-hackable editor</summary>
   <launchable type="desktop-id">dev.pulsar_edit.Pulsar.desktop</launchable>
   <metadata_license>MIT</metadata_license>
