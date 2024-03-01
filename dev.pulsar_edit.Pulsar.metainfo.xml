@@ -3,7 +3,7 @@
   <id>dev.pulsar_edit.Pulsar</id>
   <name>Pulsar</name>
   <developer id="dev.pulsar_edit">
-    <name>Pulsar Edit</name>
+    <name translatable="no">Pulsar Edit</name>
   </developer>
   <summary>Community-led hyper-hackable editor</summary>
   <launchable type="desktop-id">dev.pulsar_edit.Pulsar.desktop</launchable>
