@@ -14,6 +14,7 @@
   <url type="bugtracker">https://github.com/pulsar-edit/pulsar/issues/</url>
   <url type="faq">https://pulsar-edit.dev/docs/launch-manual/sections/faq/</url>
   <url type="vcs-browser">https://github.com/pulsar-edit/pulsar</url>
+  <url type="donation">https://pulsar-edit.dev/donate.html</url>
   <branding>
   <color type="primary" scheme_preference="light">#c061cb</color>
   <color type="primary" scheme_preference="dark">#613583</color>
