@@ -109,6 +109,7 @@
                 "cp -r opt/* /app",
                 "install pip3 /app/bin",
                 "desktop-file-edit --set-key=Exec --set-value='pulsar %U' /app/share/applications/pulsar.desktop",
+                "desktop-file-edit --set-key=Icon --set-value='dev.pulsar_edit.Pulsar' /app/share/applications/pulsar.desktop",
                 "install pulsar /app/bin",
                 "install ppm /app/bin",
                 "install apm /app/bin",
