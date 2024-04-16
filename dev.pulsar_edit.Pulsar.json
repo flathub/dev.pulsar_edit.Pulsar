@@ -60,7 +60,7 @@
                     "type": "file",
                     "dest-filename": "dev.pulsar_edit.Pulsar.svg",
                     "url": "https://raw.githubusercontent.com/pulsar-edit/pulsar/master/resources/linux/pulsar.svg",
-                    "sha256": "23c4491f622574515f49e46ae3cd8fe92a432e924262637950f3c05a18da76ad",
+                    "sha256": "23c4491f622574515f49e46ae3cd8fe92a432e924262637950f3c05a18da76ad"
                 },
                 {
                     "type": "file",
