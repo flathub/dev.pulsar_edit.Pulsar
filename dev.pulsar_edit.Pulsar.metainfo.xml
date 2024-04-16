@@ -26,7 +26,7 @@
   <screenshots>
     <screenshot type="default">
       <image type="source">https://raw.githubusercontent.com/pulsar-edit/pulsar/master/resources/readme.png</image>
-      <caption>Pulsar Edit welcome window with an open project</caption>
+      <caption>Pulsar welcome window with an open project</caption>
     </screenshot>
   </screenshots>
   <keywords>

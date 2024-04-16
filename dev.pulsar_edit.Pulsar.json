@@ -58,6 +58,12 @@
                 },
                 {
                     "type": "file",
+                    "dest-filename": "dev.pulsar_edit.Pulsar.svg",
+                    "url": "https://raw.githubusercontent.com/pulsar-edit/pulsar/master/resources/linux/pulsar.svg",
+                    "sha256": "23c4491f622574515f49e46ae3cd8fe92a432e924262637950f3c05a18da76ad",
+                },
+                {
+                    "type": "file",
                     "path": "dev.pulsar_edit.Pulsar.metainfo.xml"
                 },
                 {
@@ -98,15 +104,18 @@
             "build-commands": [
                 "ar x pulsar.deb",
                 "tar -xf data.tar.xz",
+                "rm -rf usr/share/icons/hicolor/*"
                 "cp -r usr/* /app",
                 "cp -r opt/* /app",
                 "install pip3 /app/bin",
                 "desktop-file-edit --set-key=Exec --set-value='pulsar %U' /app/share/applications/pulsar.desktop",
+                "desktop-file-edit --set-key=Icon --set-value='dev.pulsar_edit.Pulsar.svg' /app/share/applications/pulsar.desktop",
                 "install pulsar /app/bin",
                 "install ppm /app/bin",
                 "install apm /app/bin",
                 "chmod +x \"/app/bin/pulsar\" \"/app/bin/ppm\" \"/app/bin/apm\"",
-                "install -Dm644 dev.pulsar_edit.Pulsar.metainfo.xml /app/share/appdata/dev.pulsar_edit.Pulsar.metainfo.xml"
+                "install -Dm644 dev.pulsar_edit.Pulsar.svg /app/share/icons/hicolor/scalable/apps/"
+                "install -Dm644 dev.pulsar_edit.Pulsar.metainfo.xml /app/share/metainfo/dev.pulsar_edit.Pulsar.metainfo.xml"
             ]
         }
     ]
