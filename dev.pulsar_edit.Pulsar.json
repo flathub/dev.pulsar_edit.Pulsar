@@ -7,7 +7,6 @@
     "sdk": "org.freedesktop.Sdk",
     "command": "pulsar",
     "rename-desktop-file": "pulsar.desktop",
-    "rename-icon": "pulsar",
     "separate-locales": false,
     "finish-args": [
         "--share=ipc",
