@@ -113,6 +113,7 @@
                 "install ppm /app/bin",
                 "install apm /app/bin",
                 "chmod +x \"/app/bin/pulsar\" \"/app/bin/ppm\" \"/app/bin/apm\"",
+                "mkdir -p /app/share/icons/hicolor/scalable/apps/",
                 "install -Dm644 dev.pulsar_edit.Pulsar.svg /app/share/icons/hicolor/scalable/apps/",
                 "install -Dm644 dev.pulsar_edit.Pulsar.metainfo.xml /app/share/metainfo/dev.pulsar_edit.Pulsar.metainfo.xml"
             ]
