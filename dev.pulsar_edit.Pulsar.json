@@ -104,7 +104,7 @@
             "build-commands": [
                 "ar x pulsar.deb",
                 "tar -xf data.tar.xz",
-                "rm -rf usr/share/icons/hicolor/*"
+                "rm -rf usr/share/icons/hicolor/*",
                 "cp -r usr/* /app",
                 "cp -r opt/* /app",
                 "install pip3 /app/bin",
@@ -114,7 +114,7 @@
                 "install ppm /app/bin",
                 "install apm /app/bin",
                 "chmod +x \"/app/bin/pulsar\" \"/app/bin/ppm\" \"/app/bin/apm\"",
-                "install -Dm644 dev.pulsar_edit.Pulsar.svg /app/share/icons/hicolor/scalable/apps/"
+                "install -Dm644 dev.pulsar_edit.Pulsar.svg /app/share/icons/hicolor/scalable/apps/",
                 "install -Dm644 dev.pulsar_edit.Pulsar.metainfo.xml /app/share/metainfo/dev.pulsar_edit.Pulsar.metainfo.xml"
             ]
         }
