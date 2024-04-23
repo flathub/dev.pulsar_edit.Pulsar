@@ -6,7 +6,7 @@
   <developer id="dev.pulsar_edit">
     <name translatable="no">Pulsar Edit</name>
   </developer>
-  <summary>Community-led hyper-hackable editor</summary>
+  <summary>Community led very modifiable text editor</summary>
   <launchable type="desktop-id">dev.pulsar_edit.Pulsar.desktop</launchable>
   <metadata_license>MIT</metadata_license>
   <project_license>MIT</project_license>
@@ -17,11 +17,11 @@
   <url type="donation">https://pulsar-edit.dev/donate.html</url>
   <branding>
   <color type="primary" scheme_preference="light">#c061cb</color>
-  <color type="primary" scheme_preference="dark">#613583</color>
+  <color type="primary" scheme_preference="dark">#813d9c</color>
   </branding>
   <update_contact>admin@pulsar-edit.dev</update_contact>
   <description>
-    <p>Pulsar aims to not only reach feature parity with the original Atom, but to bring Pulsar into the 21st century by updating the underlying architecture, and supporting modern features.</p>
+    <p>Pulsar aims to not only reach feature parity with the original Atom text editor, but update the underlying architecture and support modern features.</p>
   </description>
   <screenshots>
     <screenshot type="default">
@@ -37,6 +37,7 @@
     <keyword>atom</keyword>
   </keywords>
   <releases>
+    <release version="1.116.0" date="2024-04-15"/>
     <release version="1.115.0" date="2024-03-23"/>
     <release version="1.114.0" date="2024-02-16"/>
     <release version="1.113.0" date="2024-01-16"/>
