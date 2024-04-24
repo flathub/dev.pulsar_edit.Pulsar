@@ -6,7 +6,7 @@
   <developer id="dev.pulsar_edit">
     <name translatable="no">Pulsar Edit</name>
   </developer>
-  <summary>Community led very modifiable text editor</summary>
+  <summary>Community-led, modifiable editor</summary>
   <launchable type="desktop-id">dev.pulsar_edit.Pulsar.desktop</launchable>
   <metadata_license>MIT</metadata_license>
   <project_license>MIT</project_license>
