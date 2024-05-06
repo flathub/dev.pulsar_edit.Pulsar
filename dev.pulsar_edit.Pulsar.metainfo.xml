@@ -6,7 +6,7 @@
   <developer id="dev.pulsar_edit">
     <name translatable="no">Pulsar Edit</name>
   </developer>
-  <summary>Community-led, modifiable editor</summary>
+  <summary>Modern, modifiable editor</summary>
   <launchable type="desktop-id">dev.pulsar_edit.Pulsar.desktop</launchable>
   <metadata_license>MIT</metadata_license>
   <project_license>MIT</project_license>
@@ -16,8 +16,8 @@
   <url type="vcs-browser">https://github.com/pulsar-edit/pulsar</url>
   <url type="donation">https://pulsar-edit.dev/donate.html</url>
   <branding>
-  <color type="primary" scheme_preference="light">#c061cb</color>
-  <color type="primary" scheme_preference="dark">#813d9c</color>
+  <color type="primary" scheme_preference="light">#9141ac</color>
+  <color type="primary" scheme_preference="dark">#613583</color>
   </branding>
   <update_contact>admin@pulsar-edit.dev</update_contact>
   <description>
@@ -26,7 +26,7 @@
   <screenshots>
     <screenshot type="default">
       <image type="source">https://raw.githubusercontent.com/pulsar-edit/pulsar/master/resources/linux/linux-screenshot.png</image>
-      <caption>Pulsar welcome window with an open project</caption>
+      <caption>Pulsar welcome window with an open project on the default Linux settings</caption>
     </screenshot>
     <screenshot>
       <image type="source">https://raw.githubusercontent.com/pulsar-edit/pulsar/master/resources/readme.png</image>
