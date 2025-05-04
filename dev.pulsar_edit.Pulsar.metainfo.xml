@@ -37,6 +37,7 @@
     <keyword>atom</keyword>
   </keywords>
   <releases>
+    <release version="1.128.0" date="2025-04-30"/>
     <release version="1.127.1" date="2025-03-29"/>
     <release version="1.126.0" date="2025-03-05"/>
     <release version="1.125.0" date="2025-01-23"/>
