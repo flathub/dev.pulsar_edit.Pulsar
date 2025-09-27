@@ -6,22 +6,22 @@
   <developer id="dev.pulsar_edit">
     <name translatable="no">Pulsar Edit</name>
   </developer>
-  <summary>Modern, modifiable editor</summary>
+  <summary>A community-led, hyper-hackable text editor</summary>
   <launchable type="desktop-id">dev.pulsar_edit.Pulsar.desktop</launchable>
   <metadata_license>MIT</metadata_license>
   <project_license>MIT</project_license>
   <url type="homepage">https://pulsar-edit.dev</url>
   <url type="bugtracker">https://github.com/pulsar-edit/pulsar/issues/</url>
-  <url type="faq">https://pulsar-edit.dev/docs/launch-manual/sections/faq/</url>
+  <url type="faq">https://docs.pulsar-edit.dev/troubleshooting-pulsar/</url>
   <url type="vcs-browser">https://github.com/pulsar-edit/pulsar</url>
-  <url type="donation">https://pulsar-edit.dev/donate.html</url>
+  <url type="donation">https://pulsar-edit.dev/donate/</url>
   <branding>
   <color type="primary" scheme_preference="light">#9141ac</color>
   <color type="primary" scheme_preference="dark">#613583</color>
   </branding>
   <update_contact>admin@pulsar-edit.dev</update_contact>
   <description>
-    <p>Pulsar aims to not only reach feature parity with the original Atom text editor, but update the underlying architecture and support modern features.</p>
+    <p>Pulsar is a fork of the discontinued Atom editor - assuming its mission of being a zero-compromise combination of hackability and usability.</p>
   </description>
   <screenshots>
     <screenshot type="default">
