@@ -31,8 +31,8 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://github.com/pulsar-edit/pulsar/releases/download/v1.132.1/Linux.pulsar_1.132.1_amd64.deb",
-                    "sha256": "cf5bd102a53019db91c3a7d3c7d7a803fd60ce84faf33ac2df2fb06fa3ab1a0d",
+                    "url": "https://github.com/pulsar-edit/pulsar/releases/download/v1.133.1/Linux.pulsar_1.133.1_amd64.deb",
+                    "sha256": "9519edd53ded14eb82ad74505fa01490704ff0d6def32ff1f439ebfe76464444",
                     "x-checker-data": {
                         "type": "html",
                         "url": "https://pulsar-edit.dev/download.html",
@@ -46,8 +46,8 @@
                     "only-arches": [
                         "aarch64"
                     ],
-                    "url": "https://github.com/pulsar-edit/pulsar/releases/download/v1.132.1/ARM.Linux.pulsar_1.132.1_arm64.deb",
-                    "sha256": "d1c00143ef2323440abdca62beb7cba6121d5b4d7182e78ed498226d9cb85930",
+                    "url": "https://github.com/pulsar-edit/pulsar/releases/download/v1.133.1/ARM.Linux.pulsar_1.133.1_arm64.deb",
+                    "sha256": "388620057f4992d45945664dfc945eaca8fcbde803e4e204cc238d1a266fb177",
                     "x-checker-data": {
                         "type": "html",
                         "url": "https://pulsar-edit.dev/download.html",
