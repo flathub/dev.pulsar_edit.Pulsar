@@ -10,17 +10,17 @@
     "separate-locales": false,
     "finish-args": [
         "--share=ipc",
-        "--socket=x11",
-        "--socket=pulseaudio",
+        "--socket=wayland",
+        "--socket=fallback-x11",
         "--socket=ssh-auth",
         "--share=network",
         "--device=dri",
-        "--filesystem=host",
-        "--talk-name=org.freedesktop.Notifications",
         "--talk-name=org.freedesktop.secrets",
         "--talk-name=org.gtk.vfs.*",
-        "--env=ELECTRON_TRASH=gio",
-        "--env=TMPDIR=/var/tmp"
+        "--env=ELECTRON_TRASH=gvfs-trash",
+        "--env=TMPDIR=/var/tmp",
+        "--env=ELECTRON_OZONE_PLATFORM_HINT=auto",
+        "--env=XCURSOR_PATH=/run/host/user-share/icons:/run/host/share/icons"
     ],
     "modules": [
         {
@@ -89,14 +89,6 @@
                         "export ATOM_HOME=\"$XDG_DATA_HOME\"",
                         "/app/Pulsar/resources/app/ppm/bin/ppm --in-process-gpu --executed-from=\"$(pwd)\" --pid=$$ \"$@\""
                     ]
-                },
-                {
-                    "type": "script",
-                    "dest-filename": "apm",
-                    "commands": [
-                        "export ATOM_HOME=\"$XDG_DATA_HOME\"",
-                        "/app/Pulsar/resources/app/ppm/bin/apm --in-process-gpu --executed-from=\"$(pwd)\" --pid=$$ \"$@\""
-                    ]
                 }
             ],
             "name": "pulsar",
@@ -112,8 +104,7 @@
                 "desktop-file-edit --set-key=Icon --set-value='dev.pulsar_edit.Pulsar' /app/share/applications/pulsar.desktop",
                 "install pulsar /app/bin",
                 "install ppm /app/bin",
-                "install apm /app/bin",
-                "chmod +x \"/app/bin/pulsar\" \"/app/bin/ppm\" \"/app/bin/apm\"",
+                "chmod +x \"/app/bin/pulsar\" \"/app/bin/ppm\"",
                 "mkdir -p /app/share/icons/hicolor/scalable/apps/",
                 "install -Dm644 dev.pulsar_edit.Pulsar.svg /app/share/icons/hicolor/scalable/apps/",
                 "install -Dm644 dev.pulsar_edit.Pulsar.metainfo.xml /app/share/metainfo/dev.pulsar_edit.Pulsar.metainfo.xml"
